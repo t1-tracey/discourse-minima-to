@@ -1,9 +1,9 @@
 {
   "name": "Minima Adjustments for Topic Cards",
   "component": true,
-  "license_url": null,
+  "license_url": "https://github.com/t1-tracey/discourse-minima-topic-card-adjustments/blob/main/LICENSE",
   "about_url": null,
-  "authors": null,
+  "authors": "t1-tracey",
   "theme_version": null,
   "minimum_discourse_version": null,
   "maximum_discourse_version": null,
