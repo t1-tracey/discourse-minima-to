@@ -1,0 +1,18 @@
+// Thanks to Arkshine
+// https://meta.discourse.org/t/limit-the-number-of-characters-displayed-in-the-title/297623/5?u=bloomexperiment
+// Limit title to one line in topic list
+.topic-list-item {
+    .link-top-line {
+        text-overflow: ellipsis;
+    }
+}
+
+// Remove repeated author in topic list from Minima
+.main-link .link-top-line .byline {
+    display: none;
+}
+
+// Increase max height for topic cards with thumbnail
+.topic-card:has(.topic-card__thumbnail) {
+    max-height: 275px;
+}
