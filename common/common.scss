@@ -16,3 +16,8 @@
 .topic-card:has(.topic-card__thumbnail) {
     max-height: 275px;
 }
+
+// Fix the pin icon appearing non-aligned for About topics in categories
+.topic-list-item .clearfix:before {
+    content: none;
+}
