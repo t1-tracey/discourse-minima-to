@@ -1,0 +1,4 @@
+// Hide duplicated category on mobile topic card
+.topic-list .topic-item-stats__category-tags .badge-category__wrapper {
+    display: none;
+}
